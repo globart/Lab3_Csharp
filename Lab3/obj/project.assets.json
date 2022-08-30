@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Shop/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shop/1.0.0": {
+      "type": "project",
+      "path": "../Shop/Shop.csproj",
+      "msbuildProject": "../Shop/Shop.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Shop >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Globart\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GLOBART\\Downloads\\LABS\\Lab3\\Lab3\\Lab3.csproj",
+      "projectName": "Lab3",
+      "projectPath": "D:\\GLOBART\\Downloads\\LABS\\Lab3\\Lab3\\Lab3.csproj",
+      "packagesPath": "C:\\Users\\Globart\\.nuget\\packages\\",
+      "outputPath": "D:\\GLOBART\\Downloads\\LABS\\Lab3\\Lab3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Globart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\GLOBART\\Downloads\\LABS\\Lab3\\Shop\\Shop.csproj": {
+              "projectPath": "D:\\GLOBART\\Downloads\\LABS\\Lab3\\Shop\\Shop.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
